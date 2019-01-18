@@ -61,16 +61,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\base_character.cs" />
+    <Compile Include="Assets\Scripts\Ecosystem Systems\AnimalAI.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\AnimalEntity.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\Behavior_None.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\BehaviorCore.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\BehaviorStateException.cs" />
-    <Compile Include="Assets\Scripts\Ecosystem Systems\EnergyEvent.cs" />
-    <Compile Include="Assets\Scripts\Ecosystem Systems\EnergyResource.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\EntityState.cs" />
+    <Compile Include="Assets\Scripts\Ecosystem Systems\EntityState_Dead.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\EntityState_Empty.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\LivingEntity.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\PlantEntity.cs" />
+    <Compile Include="Assets\Scripts\Ecosystem Systems\Resource.cs" />
+    <Compile Include="Assets\Scripts\Ecosystem Systems\ResourceEvent.cs" />
     <Compile Include="Assets\Scripts\Ecosystem Systems\RestrictedMember.cs" />
     <Compile Include="Assets\Scripts\FPSCameraController.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />

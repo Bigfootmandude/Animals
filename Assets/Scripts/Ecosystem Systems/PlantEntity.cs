@@ -13,13 +13,12 @@ public class PlantEntity : LivingEntity
     //inits a default plant state
     public override void init()
     {
-        name = "Default Plant";
-        description = "Default description.";
-        energy = new EnergyResource(20);
-        healthPoints = new EnergyResource(30);
+        entityName = "Default Plant";
+        entityDescription = "Default description.";
+        energy = new Resource(20);
+        healthPoints = new Resource(30);
         energyDecayRate = 0.01f;
         activeBehavior = new Behavior_None();
-        topLevelBehaviors.Add(activeBehavior);
         currentState = new EntityState_Empty();
         entityStates.Add(currentState);
         lightRequirement = 1;
@@ -29,20 +28,20 @@ public class PlantEntity : LivingEntity
 
     public override void decayEnergy()
     {
-        energy.expendEnergy(energyDecayRate);
+        energy.expendResource(energyDecayRate);
     }
 
     public override void registerEnergyEvents()
     {
-        energy.NoEnergy += OnNoEnergy;
-        energy.FullEnergy += OnFullEnergy;
-        energy.LowEnergy += OnLowEnergy;
-        energy.HighEnergy += OnHighEnergy;
+        energy.NoResource += OnNoEnergy;
+        energy.FullResource += OnFullEnergy;
+        energy.LowResource += OnLowEnergy;
+        energy.HighResource += OnHighEnergy;
     }
 
     public virtual void OnNoEnergy(object sender, EventArgs e)
     {
-
+        healthPoints.expendResource(energyDecayRate);
     }
 
     public virtual void OnFullEnergy(object sender, EventArgs e)
@@ -58,5 +57,41 @@ public class PlantEntity : LivingEntity
     public virtual void OnHighEnergy(object sender, EventArgs e)
     {
 
+    }
+
+    public override void registerHealthEvents()
+    {
+        healthPoints.NoResource += OnNoHealthPoints;
+        healthPoints.FullResource += OnFullHealthPoints;
+        healthPoints.LowResource += OnLowHealthPoints;
+        healthPoints.HighResource += OnHighHealthPoints;
+    }
+
+    
+
+    public virtual void OnNoHealthPoints(object sender, EventArgs e)
+    {
+        currentState = new EntityState_Dead(this);
+        currentState.OnEnterState();
+    }
+
+    public virtual void OnFullHealthPoints(object sender, EventArgs e)
+    {
+
+    }
+
+    public virtual void OnLowHealthPoints(object sender, EventArgs e)
+    {
+
+    }
+
+    public virtual void OnHighHealthPoints(object sender, EventArgs e)
+    {
+
+    }
+
+    public override void OnBeingEaten(LivingEntity somePredator)
+    {
+        
     }
 }

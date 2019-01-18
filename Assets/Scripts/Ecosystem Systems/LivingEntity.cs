@@ -5,15 +5,15 @@ using System;
 
 public abstract class LivingEntity : MonoBehaviour
 {
-    public string name = "Un-named living entity";
-    public string description = "None.";
+    public string entityName = "Un-named living entity";
+    public string entityDescription = "None.";
 
-    public EnergyResource energy;
-    public EnergyResource healthPoints;
+    public Resource energy;
+    public Resource healthPoints;
 
     public float energyDecayRate = 0.05f;
 
-    public List<BehaviorCore> topLevelBehaviors = new List<BehaviorCore>();
+    
     public BehaviorCore activeBehavior;
 
     public List<EntityState> entityStates = new List<EntityState>();
@@ -21,11 +21,17 @@ public abstract class LivingEntity : MonoBehaviour
 
     public float maximumSize = 1;
 
+    public bool enableBehaviors = true;
+
     public abstract void init();
 
     public abstract void decayEnergy();
 
     public abstract void registerEnergyEvents();
+
+    public abstract void registerHealthEvents();
+
+    public abstract void OnBeingEaten(LivingEntity somePredator);
 
 
 }
