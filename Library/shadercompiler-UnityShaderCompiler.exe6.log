@@ -1,0 +1,104 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Deferred.compute(83): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=13827 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at lightlistbuild-clustered.compute(16): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=27333 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ScreenSpaceShadow.compute(11): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=8200 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at lightlistbuild.compute(16): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=19561 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at VolumetricLighting.compute(40): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=37259 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at VolumeVoxelization.compute(28): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17684 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at DebugLightVolumes.compute(5): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=3590 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
+  api=4 insize=17177 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=14379 outsize=87129 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=14379 outsize=31889 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=14379 outsize=41125 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=14379 outsize=58413 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=14379 outsize=36097 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=14379 outsize=36161 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=26814 outsize=15569 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4845 outsize=3733 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3396 outsize=2681 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18299 outsize=8693 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=19063 outsize=14377 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=692 outsize=573 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=20454 outsize=95033 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=34758 outsize=32065 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=34758 outsize=33693 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16360 outsize=7821 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2044 outsize=1037 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=6817 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=6501 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=8997 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=6181 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=7573 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=7765 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=8957 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16866 outsize=9261 ok=1
