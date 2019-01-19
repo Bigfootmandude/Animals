@@ -29,6 +29,11 @@ public class EntityState
 
     }
 
+    public virtual void StateUpdate()
+    {
+
+    }
+
     public virtual void _debug(string message)
     {
         if (debugFlag) Debug.Log(message);

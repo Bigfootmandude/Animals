@@ -1,107 +1,119 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 2 plat 4 at Deferred.compute(83): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=13827 outsize=0 ok=0
+  api=4 insize=14563 outsize=96789 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at lightlistbuild-clustered.compute(16): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=27333 outsize=0 ok=0
+  api=4 insize=14563 outsize=33765 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ColorPyramid.compute(22): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=6534 outsize=0 ok=0
+  api=4 insize=14563 outsize=39257 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at lightlistbuild.compute(16): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=19561 outsize=0 ok=0
+  api=4 insize=14563 outsize=36541 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at VolumetricLighting.compute(40): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=37259 outsize=0 ok=0
+  api=4 insize=14563 outsize=61209 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at BuildProbabilityTables.compute(7): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=8512 outsize=0 ok=0
+  api=4 insize=27467 outsize=15341 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at VolumeVoxelization.compute(28): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17684 outsize=0 ok=0
+  api=4 insize=2134 outsize=1517 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=1226 outsize=821 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=18731 outsize=8693 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=19561 outsize=14613 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=2953 outsize=353 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=20933 outsize=27309 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=35447 outsize=34501 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=35447 outsize=34501 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=17177 outsize=6505 ok=1
 Cmd: compileComputeKernel
-  error: 2 plat 4 at ShadowBlurMoments.compute(80): failed to open source file: 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'
-  api=4 insize=17177 outsize=0 ok=0
+  api=4 insize=17177 outsize=7321 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17177 outsize=6805 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17177 outsize=8317 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17177 outsize=6877 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17177 outsize=8345 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17177 outsize=7973 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17177 outsize=10925 ok=1
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=40209 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=48265 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=34929 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=41529 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=42605 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=21389 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=30125 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=49813 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=43105 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=14379 outsize=68673 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=26814 outsize=14253 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=26814 outsize=16041 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=2780 outsize=48145 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=6353 outsize=1037 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=18299 outsize=8545 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=18299 outsize=10769 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=19063 outsize=14613 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=20454 outsize=27309 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=34758 outsize=35961 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=34758 outsize=35961 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=1454 outsize=597 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=5425 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=5929 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=7485 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=7789 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=9977 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=8773 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=16866 outsize=11145 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
